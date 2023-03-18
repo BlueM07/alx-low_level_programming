@@ -3,7 +3,7 @@
 #include <stdio.h> 
 /**
 * main - is n positive or negativ
-* @parametern: n is a random number
+* n is a random number
 (* 
 * print whether the number stored in the variable n is positive or negative
 (* section header: what is a section header)*
