@@ -11,7 +11,13 @@ int main(void)
 {
 char a;
 for (a = 'a'; a <= 'z' && a != 'e'; a++)
+{
+putchar (a);
+}
 for (a = 'f'; a <= 'z' && a != 'q' ; a++)
+{
+putchar (a);
+}
 for (a = 'r'; a <= 'z'; a++)
 {
 putchar(a);
