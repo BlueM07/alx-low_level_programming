@@ -16,7 +16,6 @@ if (a != 'e' && a != 'q')
 {
 putchar(a);
 }
-else "";
 }
 putchar('\n');
 return (0);
