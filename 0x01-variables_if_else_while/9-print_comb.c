@@ -15,8 +15,8 @@ for (n = '0'; n <= '9'; n = n + 1)
 putchar(n);
 if (n != 9)
 {
-putchar (',');
-putchar (' ');
+putchar(',');
+putchar(' ');
 }
 }
 putchar('\n');
