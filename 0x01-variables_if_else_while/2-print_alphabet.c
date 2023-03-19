@@ -9,8 +9,7 @@
 */
 int main (void)
 {
-char a;
 char a = 'a';
-putchar(a\n);
-return (a)
+putchar(a);
+return (a);
 }
