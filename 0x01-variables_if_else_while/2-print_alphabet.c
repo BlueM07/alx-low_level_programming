@@ -5,11 +5,11 @@
 *
 * main function produces the whole alphabet in lowercase
 * description header
-* return the alphabet
+* the return value a is the alphabet
 */
-int main (void)
+int main(void)
 {
 char a = 'a';
 putchar(a);
-return (a);
+return(a);
 }
