@@ -13,7 +13,8 @@ int n;
 for (n = '0'; n <= '9'; n = n + 1)
 {
 putchar(n);
-putchar (", ")
+putchar (",");
+putchar (" ");
 }
 putchar('\n');
 return (0);
