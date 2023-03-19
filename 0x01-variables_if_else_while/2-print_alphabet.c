@@ -11,5 +11,5 @@ int main(void)
 {
 char a = 'a';
 putchar(a);
-return(a);
+return (a);
 }
