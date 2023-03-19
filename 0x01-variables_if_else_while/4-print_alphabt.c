@@ -9,16 +9,13 @@
 */
 int main(void)
 {
-char a;
-for (a = 'a'; a <= 'z' && a != 'e' ; a++)
+char s1;
+char s2;
+char s3;
+for (s1 = 'a' && s2 = 'f' && s3 = 'r' ; s1 <= 'z' && s2 <= 'z' && s3 <= 'z' && s1 != 'e' && s1 != 'q' ; s1++ && s2++ & s3++)
 {
-for (a = 'f'; a <= 'z' && a != 'q'; a++)
-{
-for (a = 'r'; a <= 'z'; a++)
-putchar(a);
+putchar(s1,s2,s3);
 }
-}
-
 putchar('\n');
 return (0);
 }
