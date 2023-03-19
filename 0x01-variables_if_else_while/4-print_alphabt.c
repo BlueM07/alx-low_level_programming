@@ -10,17 +10,13 @@
 int main(void)
 {
 char a;
-for (a = 'a'; a <= 'z' && a != 'e'; a++)
+for (a = 'a'; a <= 'z'; a++)
 {
-putchar (a);
-}
-for (a = 'f'; a <= 'z' && a != 'q' ; a++)
-{
-putchar (a);
-}
-for (a = 'r'; a <= 'z'; a++)
+if (a != 'e' && a != 'q') 
 {
 putchar(a);
+}
+else a=a++;
 }
 putchar('\n');
 return (0);
