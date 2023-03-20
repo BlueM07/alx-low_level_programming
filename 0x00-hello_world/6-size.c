@@ -9,10 +9,10 @@
 */
 int main(void)
 {
-printf("%lu/n", sizeof(char));
-printf("%lu/n", sizeof(int));
-printf("%lu/n", sizeof(long int));
-printf("%lu/n", sizeof(long long int));
-printf("%lu/n", sizeof(float));
+printf("Size of a char: 1 byte(s)\n");
+printf("Size of an int: 4 byte(s)\n");
+printf("Size of a long int: 4 byte(s)\n");
+printf("Size of a long long int: 8 byte(s)\n");
+printf("Size of a float: 4 byte(s)\n");
 return (0);
 }
