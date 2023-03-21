@@ -1,4 +1,4 @@
-#include <stdio.hi>
+#include <stdio.h>
 /**
  * name - print _putchar
  * parameter
