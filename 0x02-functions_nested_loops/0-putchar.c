@@ -1,8 +1,4 @@
-int main(void)
-{
-	char ptch;
-	ptch = "_putchar";
-	putchar(ptch);
-	putchar ('\n');
-return (0);
-}
+#include <main.h>;
+putchar(a);
+putchar ('\n');
+
