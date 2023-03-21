@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * name - print _putchar
+ * main - print _putchar
  * parameter
 (*
 * Description: prints a specific string
