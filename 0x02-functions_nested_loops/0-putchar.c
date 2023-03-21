@@ -1,4 +1,12 @@
 #include "main.h"
+/**
+ * name - print _putchar
+ * parameter
+(*
+* Description: prints a specific string
+(* section header)
+* Return: the demanded string
+*/
 int main(void)
 {
 	char _ = '_';
@@ -9,7 +17,7 @@ int main(void)
 	char h = 'h';
 	char a = 'a';
 	char r = 'r';
-	_putchar(_);
+	_putchar (_);
 	_putchar (p);
 	_putchar (u);
 	_putchar (t);
@@ -17,6 +25,6 @@ int main(void)
 	_putchar (h);
 	_putchar (a);
 	_putchar (r);
-	_putchar('\n');
+	_putchar ('\n');
 return (0);
 }
