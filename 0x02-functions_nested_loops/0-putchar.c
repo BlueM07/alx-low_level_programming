@@ -2,7 +2,7 @@
 int main(void)
 {
 	char a = "_putchar";
-	putchar(a);
-	putchar('\n');
+	_putchar(a);
+	_putchar('\n');
 return (0);
 }
