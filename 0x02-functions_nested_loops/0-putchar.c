@@ -17,6 +17,7 @@ int main(void)
 	char h = 'h';
 	char a = 'a';
 	char r = 'r';
+
 	_putchar (_);
 	_putchar (p);
 	_putchar (u);

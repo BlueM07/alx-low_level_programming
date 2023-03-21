@@ -7,4 +7,5 @@
 (* section header)
 * Return: the demanded string
 */
+int main(void);
 char _putchar(char c);
