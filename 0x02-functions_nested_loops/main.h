@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <main.h>
+#include <stdio.hi>
 /**
  * name - print _putchar
  * parameter
@@ -9,12 +8,4 @@
 * Return: the demanded string
 */
 int main(void)
-{
-return (0);
-}
-char _putchar(char a);
-{
-	char a = '_putchar';
-	putchar(a);
-return (0);
-}
+char _putchar(char c);
