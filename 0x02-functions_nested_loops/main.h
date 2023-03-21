@@ -12,3 +12,9 @@ int main(void)
 {
 return (0);
 }
+char _putchar(char a);
+{
+	char a = '_putchar';
+	putchar(a);
+return (0);
+}
