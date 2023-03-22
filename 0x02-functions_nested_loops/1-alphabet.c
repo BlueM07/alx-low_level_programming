@@ -7,8 +7,7 @@
 (* section header)
 * Return: the demanded string
 */
-char a;
-int main(void)
+void print_alphabet(void)
 {
 	for (a = 'a';  a<= 'z'; a++)
 	{
