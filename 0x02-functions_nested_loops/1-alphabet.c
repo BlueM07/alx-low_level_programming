@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main  - print _alphabet
+ * print_alphabet - print _alphabet
  * parameter
 (*
 * Description: prints a specific string
