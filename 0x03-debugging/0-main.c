@@ -1,9 +1,13 @@
 #include "main.h"
 /**
- * main - tests a number
- * Return: 0
- * 
- */
+ * main - testing function
+ * parameter
+(*
+* Description: prints a specific string
+(* section header)
+* Return: the demanded string
+*/
+
 int main(void)
 {
 int i;
