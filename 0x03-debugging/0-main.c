@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - tests a number
  * Return: 0
