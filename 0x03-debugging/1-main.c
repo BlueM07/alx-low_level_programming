@@ -2,7 +2,7 @@
 /**
 * main - causes an infinite loop
 * parameter:
-* return: 0
+* return: value of i 
 */
 int main(void)
 {
