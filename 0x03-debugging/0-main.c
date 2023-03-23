@@ -5,9 +5,8 @@
 (*
 * Description: prints a specific string
 (* section header)
-* Return: the demanded string
+* Return: is the number positive or negative
 */
-
 int main(void)
 {
 int i;
