@@ -10,12 +10,12 @@
 */
 int main(void)
 {
-char ch;
-if (isupper(ch))
-{_putchar('1');
-}
+	char ch;
+	if (isupper(ch))
+		{return ('1');
+		}	
 else 
-{
-	_putchar ('0');
-}
+	{
+	return ('0');
+	}	
 }
