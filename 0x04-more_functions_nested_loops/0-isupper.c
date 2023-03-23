@@ -1,19 +1,21 @@
 #include "main.h"
+#include <ctype.h>
 /**
- * isupper - checks for uppercase character
+ * main - checks for uppercase character
  * parameter
 (*
 * Description: prints a specific string
 (* section header)
 * Return: the demanded string
 */
-int _isupper(int c);
+int main(void)
 {
-int c;
-int i;
-i = isupper(c);
-c = 'A';
-_putchar(i);
-c = 'a';
-_putchar(i);
+char ch;
+if (isupper(ch))
+{_putchar('1');
+}
+else 
+{
+	_putchar ('0');
+}
 }
