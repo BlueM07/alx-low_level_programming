@@ -2,7 +2,7 @@
 /**
 * main - prints i
 * parameter:
-* return: value of i
+* return:0
 */
 int main(void)
 {
