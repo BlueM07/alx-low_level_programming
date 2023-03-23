@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main - causes an infinite loop
+* main - prints i
 * parameter:
-* return: value of i 
+* return: value of i
 */
 int main(void)
 {
