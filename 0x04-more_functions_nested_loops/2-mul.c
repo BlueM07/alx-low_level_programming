@@ -7,7 +7,7 @@
 (*section header)
 * Return: result for multiplication for two integers
 */
-int _isdigit(int a, int b)
+int mul(int a, int b)
 {
 int c;
 c = (a * b);
