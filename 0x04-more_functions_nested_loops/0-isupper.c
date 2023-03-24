@@ -10,12 +10,13 @@
 */
 int main(void)
 {
-	char c;
-	if (c >= 65; c <= 91)
-		{return (1);
-		}	
+char c;
+
+if (c >= 65 && c <= 91)
+{return (1);
+}
 else 
-	{
-	return (0);
-	}	
+{
+return (0);
+}
 }
