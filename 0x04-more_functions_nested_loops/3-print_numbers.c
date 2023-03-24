@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_numbers - prints numbers
- *@i: parameter
 (*
 * Description: prin numbers from 0 to 9
 (*section header)
@@ -10,7 +9,7 @@
 void print_numbers(void)
 {
 int i;
-for (i = 0; i>= 0 && i<= 9; i++)
+for (i = '0'; i <= '9'; i = i + 1)
 {
 	_putchar(i);
 }
