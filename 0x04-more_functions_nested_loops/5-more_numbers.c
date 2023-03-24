@@ -10,7 +10,7 @@ int i;
 char c;
 for (i = 0; i < 10; i = i + 1)
 {
-for (c = '0'; c <= '14'; c = c + 1)
+for (c = '0'; c < '15'; c = c + 1)
 {
 _putchar(c);
 }
