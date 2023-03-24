@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * main - checks for uppercase character
- * parameter
+ * isupper - checks for uppercase character
+ * @c: parameter
 (*
 * Description: prints a specific string
 (* section header)
-* Return: the demanded string
+* Return: 1 if uppser case, 0 if else
 */
 
-int main(void)
+int _isupper(int c)
 	{
 		int c;
 
