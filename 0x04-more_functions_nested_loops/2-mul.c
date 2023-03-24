@@ -9,6 +9,7 @@
 */
 int _isdigit(int a, int b)
 {
+int c;
 c = (a * b);
 }
 return (%d, c);
