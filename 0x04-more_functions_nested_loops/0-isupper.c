@@ -1,5 +1,5 @@
 #include "main.h"
-#include <ctype.h>
+
 /**
  * main - checks for uppercase character
  * parameter
@@ -8,15 +8,17 @@
 (* section header)
 * Return: the demanded string
 */
-int main(void)
-{
-char c;
 
-if (c >= 65 && c <= 91)
-{return (1);
-}
-else 
-{
-return (0);
-}
-}
+int main(void)
+	{
+		char c;
+
+		if (c >= 65 && c <= 91)
+		{
+			return (1);
+		}		
+		else 
+		{
+		return (0);
+		}		
+}	
