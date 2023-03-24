@@ -1,7 +1,6 @@
 #include "main.h"
 /**
 * print_most_numbers - gives numbers
-* 
 * Description: gives numbers from 0 to 9 except 2 and 4
 * Return: value of main is the alphabet
 */
