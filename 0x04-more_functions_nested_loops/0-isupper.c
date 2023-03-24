@@ -13,7 +13,7 @@ int main(void)
 	{
 		int c;
 
-		if (c >= 65 && c <= 91)
+		if (c >= 'A' && c <= 'Z')
 		{
 			return (1);
 		}		
