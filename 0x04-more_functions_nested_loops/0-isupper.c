@@ -11,7 +11,7 @@
 
 int main(void)
 	{
-		char c;
+		int c;
 
 		if (c >= 65 && c <= 91)
 		{
