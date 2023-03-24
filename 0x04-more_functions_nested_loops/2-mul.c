@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * mul - multiplies two integers
- * @c: parameter
  * @a: parameter
  * @b: parameter
 (*
