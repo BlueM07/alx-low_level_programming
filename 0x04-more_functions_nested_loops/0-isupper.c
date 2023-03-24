@@ -10,8 +10,8 @@
 */
 int main(void)
 {
-	char ch;
-	if (isupper(ch))
+	char c;
+	if (c >= 65; c <= 91)
 		{return (1);
 		}	
 else 
