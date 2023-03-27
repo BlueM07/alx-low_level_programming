@@ -8,6 +8,7 @@
 void print_square(int size)
 {
 	int i;
+	int j;
 
 	if (size <= 0)
 	{
@@ -24,7 +25,7 @@ void print_square(int size)
 			{
 				_putchar('#');
 			}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
 
