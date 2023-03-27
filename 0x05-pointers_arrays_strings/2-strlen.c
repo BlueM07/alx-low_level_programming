@@ -12,7 +12,7 @@ int _strlen(char *s)
 	while (s[len] != '\0')
 	{
 	len = sizeof(*s);
-	putchar('len');
+	printf(%d, len);
 	len++;
 	}
 return (0);
