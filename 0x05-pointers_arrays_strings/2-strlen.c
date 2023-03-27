@@ -9,11 +9,10 @@ int _strlen(char *s)
 {
 	int len;
 
+	len = 0;
 	while (s[len] != '\0')
 	{
-	len = sizeof(*s);
-	printf(%d, len);
-	len++;
+		len++;
 	}
-return (0);
+return (len);
 }
