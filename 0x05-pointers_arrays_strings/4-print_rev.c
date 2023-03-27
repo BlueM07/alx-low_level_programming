@@ -15,10 +15,9 @@ void print_rev(char *str)
 	{
 		len++;
 	}
-	n = len
-		for (n = len; n >= 1; n--)
-		{
+	for (n = len; n >= 1; n--)
+	{
 			_putchar(str[len]);
-		}
+	}
 putchar('\n');
 }
