@@ -15,27 +15,13 @@ void puts_half(char *str)
 	{
 		len++;
 	}
-	n1 = (len - 1) / 2;
-	n2 = len / 2;
-	if (len % 2 == 0)
+	n = (len - 1) / 2;
+	while (str[len] != '0')
 	{
-		while (str[len] != '0')
-		{
-		if (len >= n2)
-		{
+		if (len >= n)
+		{	
 			putchar(str[len]);
 			n++;
-		}
-	}
-	else if (len % 2 != 0)
-	{
-		while (str[len] != '0')
-		{
-		if (len >= n1)
-		{
-			putchar(str[len]);
-			n++;
-		}
 		}
 	}
 	putchar('\n');
