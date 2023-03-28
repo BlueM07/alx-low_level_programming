@@ -17,25 +17,25 @@ void puts_half(char *str)
 		len++;
 	}
 	n1 = (len - 1) / 2;
-	n2 = (len - 2) / 2;
-	if ((len - 1) % 2 == 0)
+	n2 = len / 2;
+	if (len % 2 == 0)
 	{
-		len = n1;
+		len = n2;
 		while (str[len] != '\0')
 		{
-			if (len > n1)
+			if (len >= n2)
 		{
 			putchar(str[len]);
 			len++;
 		}
 		}
 	}
-	else if	((len - 1) % 2 != '\0')
+	else if	(len % 2 != 0)
 	{
-		len = n2;
+		len = n1;
 		while (str[len] != '\0')
 		{
-		if (len > n2)
+		if (len >= n1)
 		{
 			putchar(str[len]);
 			len++;
