@@ -25,7 +25,7 @@ void puts_half(char *str)
 		if (len >= n2)
 		{
 			putchar(str[len]);
-			n++;
+			len++;
 		}
 	}
 	else if
@@ -36,7 +36,7 @@ void puts_half(char *str)
 		if (len >= n1)
 		{
 			putchar(str[len]);
-			n++;
+			len++;
 		}
 		}
 	}
