@@ -1,28 +1,18 @@
 #include "main.h"
 /**
- * puts_half - swaps the values of two integers
- * @str: parameter
+ * print_array - swaps the values of two integers
+ * @a: parameter
+ * @n: parameter
  * Description: swaps the values of two integers
  * Return: values swaped
  */
-void puts_half(char *str)
+void print_array(int *a, int n)
 {
-	int len;
-	int n;
+	int i;
 
-	len = 0;
-	while (str[len] != '\0')
+	for (i = 0; i < n; i++)
 	{
-		len++;
-	}
-	n = (len - 1) / 2;
-	while (str[len] != '0')
-	{
-		if (len >= n)
-		{	
-			putchar(str[len]);
-			n++;
-		}
+		putchar(a[i]);
 	}
 	putchar('\n');
 }
