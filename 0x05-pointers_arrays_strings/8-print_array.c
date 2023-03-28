@@ -13,6 +13,8 @@ void print_array(int *a, int n)
 	for (i = 0; i < n; i++)
 	{
 		putchar(a[i]);
+		putchar(',');
+		putchar(32);
 	}
 	putchar('\n');
 }
