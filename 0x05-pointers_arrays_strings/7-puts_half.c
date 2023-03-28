@@ -21,7 +21,7 @@ void puts_half(char *str)
 	if (len % 2 == 0)
 	{
 		len = n2;
-		while (str[len] != '0')
+		while (str[len] != '\0')
 		{
 			if (len >= n2)
 		{
@@ -30,10 +30,10 @@ void puts_half(char *str)
 		}
 		}
 	}
-	else if	(len % 2 != 0)
+	else if	(len % 2 != '\0')
 	{
 		len = n1;
-		while (str[len] != '0')
+		while (str[len] != '\0')
 		{
 		if (len >= n1)
 		{
