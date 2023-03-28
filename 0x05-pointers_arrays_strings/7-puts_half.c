@@ -16,10 +16,13 @@ void puts_half(char *str)
 		len++;
 	}
 	n = (len - 1) / 2;
-	if (len >= n)
+	while (str[len] != '0')
 	{
-		putchar(str[n]);
-		n++;
+		if (len >= n)
+		{	
+			putchar(str[n]);
+			n++;
+		}
 	}
 	putchar('\n');
 }
