@@ -28,12 +28,12 @@ void puts_half(char *str)
 			putchar(str[len]);
 			len++;
 		}
+		}
 	}
-	else if
+	else if	(len % 2 != 0)
 	{
-		(len % 2 != 0)
-			len = n1;
-	while (str[len] != '0')
+		len = n1;
+		while (str[len] != '0')
 		{
 		if (len >= n1)
 		{
