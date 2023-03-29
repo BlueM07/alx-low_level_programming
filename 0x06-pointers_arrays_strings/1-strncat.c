@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * _strcat - swaps the values of two integers
+ * _strncat - swaps the values of two integers
  * @dest: parameter
  * @src: parameter
+ * @n: max used from src
  * Description: swaps the values of two integers
  * Return: values swaped
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
 	int j = 0;
