@@ -7,7 +7,7 @@
  * Description: swaps the values of two integers
  * Return: values swaped
  */
-char *_strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src)
 {
 	int i = 0;
 	int j = 0;
