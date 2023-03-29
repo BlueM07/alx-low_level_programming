@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * puts_half - swaps the values of two integers
- * @str: parameter
+ * *_strcpy - swaps the values of two integers
+ * @dest: parameter
+ * @src: parameter
  * Description: swaps the values of two integers
- * Return: values swaped
- */
-void puts_half(char *str)
+ * Return: the pointer to dest
+*/
+char *_strcpy(char *dest, char *src);
 {
 	int len;
 	int n;
