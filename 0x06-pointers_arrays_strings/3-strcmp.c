@@ -10,8 +10,9 @@ int _strcmp(char *s1, char *s2)
 {
 	int i = 0;
 	int strcmp;
+	int strcmp2;
 
-	while ((s1[i] != '\0') || (s2[i] != '\0'))
+	while ((s1[i] != '\0') && (s2[i] != '\0'))
 	{
 		strcmp = s1[i] - s2[i];
 		if (strcmp != 0)
@@ -19,6 +20,11 @@ int _strcmp(char *s1, char *s2)
 			return (strcmp);
 		}
 		i++;
+	}
+	while ((s1[i] != '\0') || (s2[i] != '\0'))
+	{
+		strcmp = s1[i] - s2[i];
+		return (strcmp);
 	}
 return (strcmp);
 }
