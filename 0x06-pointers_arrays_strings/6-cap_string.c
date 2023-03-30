@@ -15,7 +15,7 @@ char *cap_string(char *str)
 		{
 			if (i == 0)
 			{
-				*str[i] -= 32;
+				str[i] -= 32;
 			if (str[i - 1] == 32 || str[i - 1] == 44)
 			{
 				str[i] = str[i] - 32;
