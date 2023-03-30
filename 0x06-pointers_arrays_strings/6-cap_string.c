@@ -1,14 +1,21 @@
 #include "main.h"
 /**
- * _strcat - swaps the values of two integers
- * @dest: parameter
- * @src: parameter
- * Description: swaps the values of two integers
- * Return: values swaped
+ * *cap_string - function
+ * @str : parameter
+ * Decription: compare two strings
+ * Return: if the two strings are the same  return value = 0
  */
-char *_strcat(char *dest, char *src)
+char *cap_string(char *str)
 {
-	char *strcat;
+	int i = 0;
 
-	*strcat = dest + src;
+	while (str[i] != '\0')
+	{
+		if (str[i] == 32)
+		{
+			str[i] + 1 = str[i] - 31;
+		}
+		i++;
+	}
+	return (str);
 }
