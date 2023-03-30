@@ -1,10 +1,11 @@
 #include "main.h"
 /**
  * *string_toupper - function
+ * @str : parameter
  * Decription: compare two strings
  * Return: if the two strings are the same  return value = 0
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int i = 0;
 
@@ -16,4 +17,5 @@ char *string_toupper(char *)
 		}
 		i++;
 	}
+	return (str);
 }
