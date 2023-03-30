@@ -18,10 +18,6 @@ int _strcmp(char *s1, char *s2)
 			{
 				i++;
 			}
-			else if  (strcmp != 0)
-			{
-				return (strcmp);
-			}
 	}
-return (0);
+	return (strcmp);
 }
