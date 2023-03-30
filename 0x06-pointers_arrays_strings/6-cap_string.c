@@ -11,6 +11,10 @@ char *cap_string(char *str)
 
 	while (str[i] != '\0')
 	{
+		if (str[i] >= 65 && str[i] <= 90)
+		{
+			str[i] = str[i] + 32;
+		}
 		if (str[i] == 32 || str[i] == 44 || str[i] == 59 || str[i] == 46)
 		{
 			str[i + 1] = str[i + 1] - 32;
