@@ -4,7 +4,7 @@
  * @s1: parameter
  * @s2 : parameter
  * Decription: compare two strings
- * Return value: s1 - s2
+ * Return: if the two strings are the same  return value = 0
  */
 int _strcmp(char *s1, char *s2)
 {
