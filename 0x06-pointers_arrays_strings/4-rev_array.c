@@ -1,14 +1,27 @@
 #include "main.h"
 /**
- * _strcat - swaps the values of two integers
- * @dest: parameter
- * @src: parameter
- * Description: swaps the values of two integers
- * Return: values swaped
+ * _strcmp - function
+ * @s1: parameter
+ * @s2 : parameter
+ * Decription: compare two strings
+ * Return: if the two strings are the same  return value = 0
  */
-char *_strcat(char *dest, char *src)
+int _strcmp(char *s1, char *s2)
 {
-	char *strcat;
+	int i = 0;
+	int strcmp;
 
-	*strcat = dest + src;
+	while ((s1[i] != '\0') && (s2[i] != '\0'))
+	{
+		strcmp = s1[i] - s2[i];
+		if (s1[i] != s2[i])
+		{
+			return (strcmp);
+		}
+		if (s1[i] == s2[i])
+		{
+			i++;
+		}
+	}
+return (0);
 }

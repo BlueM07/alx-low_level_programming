@@ -1,14 +1,19 @@
 #include "main.h"
 /**
- * _strcat - swaps the values of two integers
- * @dest: parameter
- * @src: parameter
- * Description: swaps the values of two integers
- * Return: values swaped
+ * *string_toupper - function
+ * Decription: compare two strings
+ * Return: if the two strings are the same  return value = 0
  */
-char *_strcat(char *dest, char *src)
+char *string_toupper(char *)
 {
-	char *strcat;
+	int i = 0;
 
-	*strcat = dest + src;
+	while (str[i] != '\0')
+	{
+		if (str[i] >= 97 && str[i] <= 122)
+		{
+			str[i] = str[i] - 32;
+		}
+		i++;
+	}
 }
