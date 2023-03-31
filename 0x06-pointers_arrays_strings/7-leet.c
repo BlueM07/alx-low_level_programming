@@ -22,5 +22,5 @@ char *leet(char *str)
 			}
 		}
 	}
-	return (0);
+	return (str);
 }
