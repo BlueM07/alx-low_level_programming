@@ -9,19 +9,15 @@ int _atoi(char *s)
 {
 	int i;
 	int j;
-	char a[] = "0123456789";
-	int b[] = {48, 49, 50, 51, 52, 53, 54, 55, 56, 57};
+	
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; a[j] != '\0'; j++)
-		{
-			if (s[i] == a[j])
+		if (s[i] >= 48 && s[i] <= 57)
 			{
-				s[i] = b[j];
+				s[i] = s[i + 48];
 			}
 			return (s[i]);
-		}
 	}
 return (0);
 }
