@@ -9,22 +9,25 @@
 */
 int print_sign(int n)
 {
-	int r = 0;
+	char r = 0;
 
 	if (n > 0)
 	{
+		r = '1';
 		putchar('+');
 		return (r);
 	}
 	else if (n == 0)
 	{
+		r = '0';
 		putchar('0');
 		return (r);
 	}
 	else if (n < 0)
 	{
+		r = '-1';
 		putchar('-');
 		return (r);
 	}
-return (r);
+return (0);
 }
