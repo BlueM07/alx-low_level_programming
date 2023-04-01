@@ -17,7 +17,7 @@ int _atoi(char *s)
 		{
 			neg = -1;
 		}
-		for (s[i] >= 48 && s[i] <= 57)
+		if (s[i] >= 48 && s[i] <= 57)
 		{
 			res = res * 10 + s[i] - 48;
 		}
