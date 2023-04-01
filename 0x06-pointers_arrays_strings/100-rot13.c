@@ -10,6 +10,7 @@ char *rot13(char *str)
 	int i;
 	int j;
 	char a[] = "abcdefghijiklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char b[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
@@ -17,7 +18,7 @@ char *rot13(char *str)
 		{
 			if (str[i] == a[j])
 			{
-				str[i] = str[i + 13];
+				str[i] = b[j];
 			}
 		}
 	}
