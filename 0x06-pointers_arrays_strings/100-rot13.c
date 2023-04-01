@@ -9,7 +9,7 @@ char *rot13(char *str)
 {
 	int i;
 	int j;
-	char a[] = "abcdefghijilmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char b[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
 	for (i = 0; str[i] != '\0'; i++)
