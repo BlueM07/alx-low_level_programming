@@ -15,8 +15,8 @@ void print_number(int n)
 		putchar('-');
 		n = n * -1;
 	}
-	res1 = ((n / 10) + 48);
-	res2 = ((n % 10) + 48);
-	putchar(res1);
-	putchar(res2);
+res1 = ((n / 10) + 48);
+res2 = ((n % 10) + 48);
+putchar(res1);
+putchar(res2);
 }
