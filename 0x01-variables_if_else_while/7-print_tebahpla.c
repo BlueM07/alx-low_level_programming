@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
 * main - gives alphabet
-* @a : is alphabet
 (*
 * main function produces the whole alphabet in lowercase
 (* description header)
 * Return: value of main is the alphabet
 */
-char  main(char a)
+int main(void)
 {
 	int n;
+	char a;
 
 	a = 122;
 	for (n = 0; n <= 26; n++)
@@ -17,4 +17,6 @@ char  main(char a)
 		putchar(a);
 		a--;
 	}
+putchar('\n');
+return (0);
 }
