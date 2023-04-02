@@ -7,7 +7,7 @@
 (* description header)
 * Return: value of main is the alphabet
 */
-int main(char a)
+char  main(char a)
 {
 	int n;
 
@@ -17,5 +17,4 @@ int main(char a)
 		putchar(a);
 		a--;
 	}
-	return (0);
 }
