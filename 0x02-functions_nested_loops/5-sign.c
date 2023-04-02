@@ -14,19 +14,19 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		r = 1;
-		putchar('+');
+		_putchar('+');
 		return (r);
 	}
 	else if (n == 0)
 	{
 		r = 0;
-		putchar('0');
+		_putchar('0');
 		return (r);
 	}
 	else if (n < 0)
 	{
 		r = -1;
-		putchar('-');
+		_putchar('-');
 		return (r);
 	}
 return (0);
