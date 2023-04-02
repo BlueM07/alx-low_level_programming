@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
 * main - prints i
-* parameter:
-* return:0
+* decription: causes an infinite loop
+* Return: return value is 0
 */
 int main(void)
 {
-int i;
-printf("Infinite loop incoming :(\n");
-i = 0;
-/*while (i < 10)*/
-/*{*/
-/*putchar(i);*/
-/*}*/
-/*printf("Infinite loop avoided! \\o/\n");*/
+	int i;
+
+	printf("Infinite loop incoming :(\n");
+	i = 0;
+	/*while (i < 10)*/
+	/*{*/
+	/*putchar(i);*/
+	/*}*/
+	/*printf("Infinite loop avoided! \\o/\n");*/
 return (0);
 }
