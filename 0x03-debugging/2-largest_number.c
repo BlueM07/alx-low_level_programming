@@ -26,12 +26,12 @@ int largest_number(int a, int b, int c)
 	{
 		if (b >= c)
 		{
-			lagest = b;
+			largest = b;
 		}
 		else
 		{
 			largest = c;
 		}
 	}
-return (0);
+return (largest);
 }
