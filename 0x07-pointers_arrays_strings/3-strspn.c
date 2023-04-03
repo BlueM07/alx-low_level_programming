@@ -2,7 +2,6 @@
 /**
  *  _strspn - function to set memory
  * @s: string
- 
  * @accept: char
  * Description: function to set memory with a constant byte
  * Return: pointer to the memory area
@@ -15,16 +14,19 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; accept[j] != 0; j++)
+		if (s[i] != 32)
 		{
-			if (s[i] == accept[j])
+			for (j = 0; accept[j] != 0; j++)
 			{
-				len = len + 1;
+				if (s[i] == accept[j])
+				{
+					len = len + 1;
+				}
 			}
-			else
-			{
-				return (len);
-			}
+		}
+		else
+		{
+			return (len);
 		}
 	}
 	return (len);
