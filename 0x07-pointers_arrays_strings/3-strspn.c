@@ -18,7 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		else
 		{
-			len = men + 1;
+			len = len + 1;
 		}
 	}
 	return (len);
