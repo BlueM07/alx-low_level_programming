@@ -7,14 +7,15 @@
  */
 int main(void)
 {
-	int i;
 	char a;
 
-	a = 97;
-	for (i = 0; a <= 122 && a != 101 && a != 113; a++)
+	for (a = 97; a <= 122; a++)
 	{
+		if (a == 101 && a == 113)
+		{
+		a++;
+		}
 		putchar (a);
-		i++;
 	}
 	putchar ('\n');
 	return (0);
