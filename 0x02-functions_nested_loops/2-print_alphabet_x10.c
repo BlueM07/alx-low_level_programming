@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_alphabet - function that puts and returns a string
+ * print_alphabet_x10 - function that puts and returns a string
  *
  * Description: Longer description of the function
  * Return: The wanted result
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char a;
 	int i = 0;
