@@ -5,7 +5,7 @@
  * Description: Longer description of the function
  * Return: The wanted result
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char a;
 
@@ -14,5 +14,4 @@ void print_alphabet(void);
 		putchar(a);
 	}
 	putchar ('\n');
-	return (0);
 }
