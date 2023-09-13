@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * abs - function that puts and returns a string
+ * _abs - function that puts and returns a string
  * @n: parameter
  *
  * Description: Longer description of the function
