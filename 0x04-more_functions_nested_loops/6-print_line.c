@@ -1,27 +1,15 @@
 #include "main.h"
 
 /**
- * print_most_numbers - decription of the function
- *
+ *print_line - decription of the function
+ *@n: parameter
  * Return: function result
  */
-void print_most_numbers(void)
+void print_line(int n)
 {
-	int n;
-	int i;
-	int j;
-
-	for (i = 0; i < 10; i++)
+	if (n > 0)
 	{
-		for (n = '0'; n <= '9'; n++)
-		{
-			_putchar(n);
-		}
-		for (j = '0'; j <= '4'; j++)
-		{
-			_putchar('1');
-			_putchar(j);
-		}
-		_putchar('\n');
+		_putchar('_');
 	}
+	_putchar('\n');
 }
