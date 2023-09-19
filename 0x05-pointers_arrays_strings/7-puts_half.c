@@ -1,28 +1,32 @@
 #include "main.h"
 
 /**
- * rev_string - decription of the function
- * @s: parameter
+ * puts_half - decription of the function
+ * @str: parameter
  * Return: function result
  */
-void rev_string(char *s)
+void puts_half(char *str)
 {
 	int i;
-	int j = 0;
 	int len = 0;
-	char stemp[1000];
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		len = i + 1;
 	}
-	for (i = len - 1; i >= 0; i--, j++)
+	if (len % 2 == 0)
 	{
-		stemp[j] = s[i];
+		for (i = len / 2; str[i] != '\0'; i++)
+		{
+		_putchar(str[i]);
+		}
 	}
-	stemp[len] = '\0';
-	for (i = 0, j = 0; s[i] != '\0'; i++, j++)
+	else
 	{
-		s[i] = stemp[j];
+		for (i = (len - 1) / 2; str[i] != '\0'; i++)
+		{
+			_putchar(str[i]);
+		}
 	}
+	_putchar('\n');
 }
