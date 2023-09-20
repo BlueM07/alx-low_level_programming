@@ -2,7 +2,7 @@
 
 /**
  * *string_toupper - decription of the function
- * @s
+ * @s: parameter
  * Return: function result
  */
 char *string_toupper(char *s)
