@@ -18,10 +18,12 @@ char *cap_string(char *s)
 		for (j = 0; temp[j] != '\0'; j++)
 		{
 			for (k = 0; temp[k] != '\0'; k++)
-				if (s[i] == temp[j] || s[i] == temp[k])
+			{
+				if (s[i] == temp[j] || s[i] == temp2[k])
 				{
 					s[i + 1] = s[i + 1] - 32;
 				}
+			}
 		}
 	}
 	return (s);
