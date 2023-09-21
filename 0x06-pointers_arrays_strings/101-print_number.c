@@ -9,7 +9,8 @@ void print_number(int n)
 {
 	if (n < 0)
 	{
-		_putchar(48 + n * 1);
+		_putchar('-');
+		_putchar(48 + n);
 	}
 	else
 	{
