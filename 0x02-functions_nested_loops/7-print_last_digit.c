@@ -11,18 +11,13 @@ int print_last_digit(int n)
 	int mod;
 
 	mod = n % 10;
-	if (n > 0)
+	if (n >= 0)
 	{
-		_putchar ('0' + mod);
-	}
-	if (n == 0)
-	{
-		_putchar (0);
+		return (mod);
 	}
 	else
 	{
 		n = n * -1;
-		_putchar ('0' + mod);
+		return (mod);
 	}
-	return (0);
 }
