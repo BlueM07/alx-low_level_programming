@@ -13,7 +13,7 @@ int print_last_digit(int n)
 	mod = n % 10;
 	if (n > 0)
 	{
-		return (mod + 48);
+		return ('0' + mod);
 	}
 	if (n == 0)
 	{
@@ -22,6 +22,6 @@ int print_last_digit(int n)
 	else
 	{
 		n = n * -1;
-		return (mod + 48);
+		return ('0' + mod);
 	}
 }
