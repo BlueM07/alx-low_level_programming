@@ -1,5 +1,4 @@
 #include "main.h"
-#include "limits.h"
 
 /**
  * print_last_digit - function that puts and returns a string
@@ -11,15 +10,8 @@
 int print_last_digit(int n)
 {
 	int mod;
-	int min;
 
-	min = INT_MIN;
 	mod = n % 10;
-	if (n == min)
-	{
-		_putchar ('0' + mod);
-		return (mod);
-	}
 	if (n >= 0)
 	{
 		_putchar ('0' + mod);
@@ -27,7 +19,7 @@ int print_last_digit(int n)
 	}
 	else
 	{
-		n = n * -1;
+		n = -n;
 		mod = n % 10;
 		_putchar ('0' + mod);
 		return (mod);
