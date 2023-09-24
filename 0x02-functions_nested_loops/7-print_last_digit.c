@@ -17,7 +17,7 @@ int print_last_digit(int n)
 	mod = n % 10;
 	if (n == min)
 	{
-		_putchar (8);
+		_putchar ('8');
 		return (8);
 	}
 	if (n >= 0)
