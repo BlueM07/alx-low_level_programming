@@ -8,6 +8,20 @@
  */
 int print_last_digit(int n)
 {
-	n = n % 10;
-	return(n);
+	int mod;
+
+	mod = n % 10;
+	if (n > 0)
+	{
+		return (mod + 48);
+	}
+	if (n == 0)
+	{
+		return (0);
+	}
+	else
+	{
+		n = n * -1;
+		return (mod + 48);
+	}
 }
