@@ -24,7 +24,7 @@ char *_strstr(char *haystack, char *needle)
 					return (NULL);
 				}
 			}
-			return (&needle[ref]);
+			return (&haystack[ref]);
 		}
 	}
 	return (NULL);
