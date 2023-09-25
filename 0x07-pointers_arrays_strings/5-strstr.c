@@ -23,8 +23,11 @@ char *_strstr(char *haystack, char *needle)
 				{
 					return (NULL);
 				}
+				else
+				{
+					return (&haystack[ref]);
+				}
 			}
-			return (&haystack[ref]);
 		}
 	}
 	return (NULL);
