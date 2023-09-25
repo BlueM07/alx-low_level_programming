@@ -17,21 +17,24 @@ char *_strstr(char *haystack, char *needle)
 		if (haystack[i] == needle[0])
 		{
 			ref = i;
-		}
-	}
-	for (i = ref; haystack[i] != '\0'; i++)
-	{
-		for (j = 0; needle[j] != '\0'; j++)
-		{
-			if (haystack[i] != needle[j])
+			j = 0;
+			while (haystack[i] == needle[0] && needle[j] != '\0')
 			{
-				return (NULL);
+			i++;
+			j++;
 			}
-			else
+			if (needle[j] != '\0)
 			{
 				return (&haystack[ref]);
 			}
+			else
+			{
+				return (NULL);
+			}
+		}
+		else 
+		{
+			return (NULL);
 		}
 	}
-	return (NULL);
 }
