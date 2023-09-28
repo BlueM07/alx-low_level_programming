@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * is_prime_number - decription of the function
+ * is_prime - decription of the function
  * @n: parameter
+ * @divisor: parameter
  * Return: function result
  */
 int is_prime(int n, int divisor)
@@ -21,6 +22,11 @@ int is_prime(int n, int divisor)
 	}
 	return (is_prime(n, divisor - 1));
 }
+/**
+ * is_prime_number - decription of the function
+ * @n: parameter
+ * Return: function result
+ */
 int is_prime_number(int n)
 {
 	return (is_prime(n, n - 1));
