@@ -11,5 +11,5 @@ void _puts_recursion(char *s)
 	{
 		return (0);
 	}
-	_putchar(s + _putchar(s - 1));
+	_putchar(s + _puts_recursion(s + 1));
 }
