@@ -17,7 +17,13 @@ void print_name(char *name, void (*f)(char *))
  */
 void print_name_as_is(char *name)
 {
-	_putchar(name);
+	int i = 0;
+
+	while (name[i])
+	{
+		_putchar(name[i]);
+		i++;
+	}
 }
 /**
  * print_name_uppercase - description
