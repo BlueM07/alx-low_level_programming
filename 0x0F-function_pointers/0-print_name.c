@@ -10,6 +10,7 @@ void print_name(char *name, void (*f)(char *))
 {
 	f(name);
 }
+#include "main.h"
 /**
  * print_name_as_is - description
  * @name: parameter
@@ -21,10 +22,11 @@ void print_name_as_is(char *name)
 
 	while (name[i])
 	{
-		_putchar(name[i]);
+		putchar(name[i]);
 		i++;
 	}
 }
+#include "main.h"
 /**
  * print_name_uppercase - description
  * @name: parameter
@@ -38,11 +40,11 @@ void print_name_uppercase(char *name)
 	{
 		if (name[i] >= 'a' && name[i] <= 'z')
 		{
-			_putchar(name[i] + 'A' - 'a');
+			putchar(name[i] + 'A' - 'a');
 		}
 		else
 		{
-			_putchar(name[i]);
+			putchar(name[i]);
 		}
 		i++;
 	}
