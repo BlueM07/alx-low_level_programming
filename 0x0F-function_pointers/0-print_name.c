@@ -10,7 +10,6 @@ void print_name(char *name, void (*f)(char *))
 {
 	f(name);
 }
-#include "main.h"
 /**
  * print_name_as_is - description
  * @name: parameter
@@ -26,7 +25,6 @@ void print_name_as_is(char *name)
 		i++;
 	}
 }
-#include "main.h"
 /**
  * print_name_uppercase - description
  * @name: parameter
@@ -49,5 +47,3 @@ void print_name_uppercase(char *name)
 		i++;
 	}
 }
-
-
