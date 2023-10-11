@@ -3,11 +3,11 @@
 /**
  * print_name - decription of the function
  * @name: parameter
+ * @f:parameter
  * Return: function result
  */
 void print_name(char *name, void (*f)(char *))
 {
-	return (0);
 }
 /**
  * print_name_as_is - description
