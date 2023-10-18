@@ -4,8 +4,8 @@
 
 /**
  * create_array - create array
- * size: size
- * c: chat
+ * @size: size
+ * @c: chat
  * Return: pointer
  */
 
