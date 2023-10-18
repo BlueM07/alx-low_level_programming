@@ -3,9 +3,8 @@
 
 /**
  * **alloc_grid - alloc_grid
- * @width: width 
+ * @width: width
  * @height: height
- *
  * Return: pointer
  */
 
