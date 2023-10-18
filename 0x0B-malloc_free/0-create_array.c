@@ -2,6 +2,14 @@
 #include "main.h"
 
 
+/**
+ * create_array - create array
+ * size: size
+ * c: chat
+ * Return: pointer
+ */
+
+
 char *create_array(unsigned int size, char c)
 {
 	char *p;
