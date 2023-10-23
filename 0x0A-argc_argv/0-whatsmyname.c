@@ -2,15 +2,13 @@
 #include <stdio.h>
 
 /**
- * whatsmyname - function
+ * main - function
  * @argc: counter
  * @argv: vector
  * Return: prog name
  */
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	(void)argc;
-
 	printf("prog name is: %s/n", argv[0]);
 	return (0);
 }
