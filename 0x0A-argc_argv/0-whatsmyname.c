@@ -11,6 +11,6 @@ int whatsmyname(int argc, char *argv[])
 {
 	(void)argc;
 
-	printf("prog name is: %s/n", *argv[0]);
+	printf("prog name is: %s/n", argv[0]);
 	return (0);
 }
