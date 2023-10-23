@@ -10,6 +10,6 @@ int whatsmyname(int argc, char *argv[])
 {
 	(void)argc;
 
-	printf("prog name is %s", argv[0]);
+	_putchar(*argv[0]);
 	return (0);
 }
