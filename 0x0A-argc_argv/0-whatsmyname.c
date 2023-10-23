@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * whatsmyname - function
@@ -10,6 +11,6 @@ int whatsmyname(int argc, char *argv[])
 {
 	(void)argc;
 
-	_putchar(*argv[0]);
+	printf("prog name is: %s/n", *argv[0]);
 	return (0);
 }
