@@ -21,6 +21,14 @@ unsigned int binary_to_uint(const char *b)
 		{
 			result = b[i] + 2 * (len - i);
 		}
+		else if (b[i] == '\0')
+		{
+			return (0);
+		}
+		else
+		{
+			return (0);
+		}
 	}
 	return (result);
 }
