@@ -7,7 +7,7 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int i;
+	unsigned int i;
 	int len = 0;
 	int j = 1;
 	unsigned int result = 0;
