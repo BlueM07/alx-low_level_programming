@@ -1,14 +1,10 @@
 #include "main.h"
 
 
-
-
-
 /**
  * get_endianness - check 
  * Return: 0
  */
-
 
 
 int get_endianness(void)
@@ -21,3 +17,4 @@ int get_endianness(void)
 	else
 		return (0);
 }
+
