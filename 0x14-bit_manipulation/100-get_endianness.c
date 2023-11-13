@@ -2,7 +2,7 @@
 
 
 /**
- * get_endianness - check 
+ * get_endianness - check
  * Return: 0
  */
 
