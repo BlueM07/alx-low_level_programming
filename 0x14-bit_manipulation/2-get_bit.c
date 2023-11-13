@@ -1,19 +1,19 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * get_bit - value
- * @n: decimal 
- * @index: index
- * Return: val
+ * get_bit - getbit
+ * @n: number
+ * @index: index s
+ * Return: Value
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	int b;
-	int c;
-	int d;
-	
-	b = (n >> index);
-	if (index > 32)
-	return (-1);
-	return (b & 1);
+	unsigned long int hold;
+
+	if (index > 64)
+		return (-1);
+
+	hold = n >> index;
+
+	return (hold & 1);
 }
