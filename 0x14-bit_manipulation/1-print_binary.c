@@ -15,12 +15,8 @@ int _length(unsigned long int n)
 
 	while (n > 0)
 	{
-		
-
 		length++;
 		n >>= 1; /*shift n to the right by 1*/
-
-		
 	}
 
 	length--;
@@ -32,9 +28,9 @@ int _length(unsigned long int n)
 
 
 /**
- * print_binary - a function 
+ * print_binary - a function
  *
- * @n: decimal 
+ * @n: decimal
  *
  * Return: nothing
 */
@@ -45,21 +41,15 @@ void print_binary(unsigned long int n)
 
 	length = _length(n);
 
-	if (length > 0) 
-		mask <<= length; 
-	
 
+	if (length > 0)
+		mask <<= length;
 	while (mask > 0)
 	{
-		
-
-		if (n & mask) 
+		if (n & mask)
 			_putchar('1');
-		else 
+		else
 			_putchar('0');
-
-		mask >>= 1; 
+		mask >>= 1;
 	}
 }
-
-
