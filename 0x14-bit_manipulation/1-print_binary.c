@@ -1,5 +1,36 @@
 #include "main.h"
 
+
+
+/**
+ * _length - length
+ *
+ * @n: value
+ *
+ * Return: length
+*/
+int _length(unsigned long int n)
+{
+	int length = 0;
+
+	while (n > 0)
+	{
+		
+
+		length++;
+		n >>= 1; /*shift n to the right by 1*/
+
+		
+	}
+
+	length--;
+
+	return (length);
+}
+
+
+
+
 /**
  * print_binary - a function 
  *
